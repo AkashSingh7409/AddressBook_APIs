@@ -31,6 +31,7 @@ public class ContactController {
     @GetMapping("/findAllContacts")
     public List<Contact> getContact() {
 
+        System.out.println("Hi Akash");
         system.out.println("Hi Mounika");
         return contactService.getContact();
     }
