@@ -14,6 +14,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/contact")
+
 public class ContactController {
 
     @Autowired
@@ -29,6 +30,8 @@ public class ContactController {
 
     @GetMapping("/findAllContacts")
     public List<Contact> getContact() {
+
+        system.out.println("Hi Mounika");
         return contactService.getContact();
     }
 
