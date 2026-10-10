@@ -30,7 +30,7 @@ public class ContactController {
 
     @GetMapping("/findAllContacts")
     public List<Contact> getContact() {
-
+        System.out.println("We are learring the Java Programming Language");
         System.out.println("Hi Akash");
         system.out.println("Hi Mounika");
         return contactService.getContact();
